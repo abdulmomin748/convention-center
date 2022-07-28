@@ -6,6 +6,7 @@ header{
 .navbar-nav .nav-link{
     font-weight: 500;
     color: #3E3E3E;
+    cursor: pointer;
 }
 .navbar .active{
     background-color: #3F87F5;
