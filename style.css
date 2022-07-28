@@ -1,0 +1,114 @@
+header{
+    background: #fff;
+    z-index: 88;
+    box-shadow: 3px 6px 20px gainsboro;
+}
+.navbar-nav .nav-link{
+    font-weight: 500;
+    color: #3E3E3E;
+}
+.navbar .active{
+    background-color: #3F87F5;
+    color: #fff!important;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    background-image: url('images/arrow-forward-1.svg');
+}
+.carousel-control-next-icon{
+    transform: rotate(180deg);
+}
+.carousel-item img{
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.55) 21.92%, rgba(0, 0, 0, 0.418) 160.04%, rgba(0, 0, 0, 0.121) 160.06%), url(.jpg);
+}
+.carousel-control-next, .carousel-control-prev{
+    opacity: 1;
+}
+.carousel-indicators{
+    margin-bottom: 0.1rem;
+}
+.carousel-indicators [data-bs-target]{
+    width: 68px;
+    height: 5px;
+}
+.moment-rgt-desc a{
+    width: 230px;
+}
+.moment-rgt-desc a i {
+    position: relative;
+    right: -8px;
+    display: inline-block;
+}
+.moment-rgt-desc{
+    padding-right: 240px;
+}
+.sec-title{
+    margin-bottom: 50px;
+}
+
+.card-body ul li{
+    padding-left: 30px;
+    margin-bottom: 15px;
+}
+.card-body ul li::after{
+    content: '';
+    background: rgba(82, 67, 194, 0.103693);
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    width: 20px;
+    height: 20px;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.card-body ul li::before{
+    background: url('images/correct-mark.svg');
+    width: 12px;
+    height: 12px;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 4px;
+    top: 13px;
+}
+.card-body .btn{
+    width: 200px;
+    background-color: rgba(244,150,209, .1);
+}
+.our-package-sec{
+    padding: 100px 0;
+}
+.card-body .start-100{
+    top: -14px!important;
+    left: 80%!important;
+}
+
+.client-say-sec .card-body p{
+    color: #6C6C6C;
+}
+
+
+.free-asked-lft{
+    width: 60%;
+}
+.free-asked-rgt{
+    width: 40%;
+}
+.moment-lft-image{
+    width: 45%;
+}
+.moment-rgt-desc{
+    width: 55%;
+}
+
+.footer{
+    background-color: #0B0D17;
+    padding: 30px 0;
+    color: #D9DBE1;
+}
